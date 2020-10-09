@@ -8,3 +8,8 @@
 /CodeBehind/.vs/CodeBehind.MYSQL
 /CodeBehind/CodeBehind.MySQL/bin/Debug/netcoreapp3.1
 /CodeBehind/CodeBehind.MySQL/obj
+/CodeBehind/.vs/Youtube
+/CodeBehind/CodeBehind.Redis/obj
+/CodeBehind/CodeBehind.Redis/bin/Debug/netcoreapp3.1
+/CodeBehind/CodeBehind.Sqlite/obj
+/CodeBehind/CodeBehind.Sqlite/bin/Debug/netcoreapp3.1
