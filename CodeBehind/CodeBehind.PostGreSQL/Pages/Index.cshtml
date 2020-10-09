@@ -1,0 +1,37 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="row">
+    <div class="col-sm-12 text-right"><a class="btn btn-primary" href="Create">Novo</a></div>
+</div>
+<div class="row">
+    @if (Model != null && Model.Clientes.Any())
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nome</th>
+                    <th>Opções</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Clientes)
+                {
+                    <tr>
+                        <th scope="row">@item.Id</th>
+                        <td>@item.Nome</td>
+                        <td>
+                            <a asp-page="Delete" asp-route-id="@item.Id" onclick="return confirm('Confirmar?');" class="btn btn-danger btn-sm text-white">Excluir</a>
+                            <a asp-page="Edit" asp-route-id="@item.Id" class="btn btn-success btn-sm text-white">Editar</a>
+                        </td>
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>

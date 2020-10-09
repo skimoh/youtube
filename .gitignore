@@ -13,3 +13,5 @@
 /CodeBehind/CodeBehind.Redis/bin/Debug/netcoreapp3.1
 /CodeBehind/CodeBehind.Sqlite/obj
 /CodeBehind/CodeBehind.Sqlite/bin/Debug/netcoreapp3.1
+/CodeBehind/CodeBehind.PostGreSQL/bin/Debug/netcoreapp3.1
+/CodeBehind/CodeBehind.PostGreSQL/obj

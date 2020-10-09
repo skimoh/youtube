@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBehind.Sqlite", "CodeBe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBehind.Redis", "CodeBehind.Redis\CodeBehind.Redis.csproj", "{7C7B887F-0EAE-47A9-A2CA-805BFE13FFDF}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBehind.PostGreSQL", "CodeBehind.PostGreSQL\CodeBehind.PostGreSQL.csproj", "{314B8B5E-B1A4-4B94-99C4-4D4C702EAA26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{7C7B887F-0EAE-47A9-A2CA-805BFE13FFDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C7B887F-0EAE-47A9-A2CA-805BFE13FFDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C7B887F-0EAE-47A9-A2CA-805BFE13FFDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{314B8B5E-B1A4-4B94-99C4-4D4C702EAA26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{314B8B5E-B1A4-4B94-99C4-4D4C702EAA26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{314B8B5E-B1A4-4B94-99C4-4D4C702EAA26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{314B8B5E-B1A4-4B94-99C4-4D4C702EAA26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
