@@ -1,0 +1,35 @@
+﻿@page
+@model CodeBehind.SqlServer.Pages.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h4>Cliente - Editar</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="cliente.Id" />
+            <div class="form-group">
+                <label asp-for="cliente.Nome" class="control-label"></label>
+                <input asp-for="cliente.Nome" class="form-control" />
+                <span asp-validation-for="cliente.Nome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Salvar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Voltar</a>
+</div>
+<h1>@Model.Mensagem</h1>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -15,3 +15,11 @@
 /CodeBehind/CodeBehind.Sqlite/bin/Debug/netcoreapp3.1
 /CodeBehind/CodeBehind.PostGreSQL/bin/Debug/netcoreapp3.1
 /CodeBehind/CodeBehind.PostGreSQL/obj
+/CodeBehind/CodeBehind.SqlServer/obj
+/CodeBehind/CodeBehind.SqlServer/bin/Debug/netcoreapp3.1
+/CodeBehind/CodeBehind.Maria/obj
+/CodeBehind/CodeBehind.Maria/bin/Debug/netcoreapp3.1
+/CodeBehind/CodeBehind.Firebird/obj
+/CodeBehind/CodeBehind.Firebird/bin/Debug/netcoreapp3.1
+/CodeBehind/CodeBehind.ElasticSearch/obj
+/CodeBehind/CodeBehind.ElasticSearch/bin/Debug/netcoreapp3.1
