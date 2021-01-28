@@ -23,3 +23,5 @@
 /CodeBehind/CodeBehind.Firebird/bin/Debug/netcoreapp3.1
 /CodeBehind/CodeBehind.ElasticSearch/obj
 /CodeBehind/CodeBehind.ElasticSearch/bin/Debug/netcoreapp3.1
+/CodeBehind/CodeBehind.Mongo/bin/Debug/netcoreapp3.1
+/CodeBehind/CodeBehind.Mongo/obj
