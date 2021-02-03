@@ -25,3 +25,11 @@
 /CodeBehind/CodeBehind.ElasticSearch/bin/Debug/netcoreapp3.1
 /CodeBehind/CodeBehind.Mongo/bin/Debug/netcoreapp3.1
 /CodeBehind/CodeBehind.Mongo/obj
+/CodeBehind/CodeBehind.GraphQL.Demo/bin/Debug/netcoreapp3.1
+/CodeBehind/CodeBehind.GraphQL.Demo/obj
+/CodeBehind/CodeBehind.GraphQueryLanguage.Demo/bin/Debug/netcoreapp3.1
+/CodeBehind/CodeBehind.GraphQueryLanguage.Demo/obj
+/CodeBehind/CodeBehind.GraphQueryLanguage.Demo.Console/bin/Debug/netcoreapp3.1
+/CodeBehind/CodeBehind.GraphQueryLanguage.Demo.Console/obj
+/CodeBehind/CodeBehind.OData.Demo/bin/Debug/netcoreapp3.1
+/CodeBehind/CodeBehind.OData.Demo/obj
