@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBehind.GraphQueryLangua
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBehind.GraphQueryLanguage.Demo.Invocar", "CodeBehind.GraphQueryLanguage.Demo.Console\CodeBehind.GraphQueryLanguage.Demo.Invocar.csproj", "{3F8AA7EB-7254-41B2-984D-03F223200AF9}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBehind.CosmoDB", "CodeBehind.CosmoDB\CodeBehind.CosmoDB.csproj", "{A74FDB43-5FCF-45F9-97C5-59EC810E6E2A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +87,10 @@ Global
 		{3F8AA7EB-7254-41B2-984D-03F223200AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F8AA7EB-7254-41B2-984D-03F223200AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F8AA7EB-7254-41B2-984D-03F223200AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A74FDB43-5FCF-45F9-97C5-59EC810E6E2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A74FDB43-5FCF-45F9-97C5-59EC810E6E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A74FDB43-5FCF-45F9-97C5-59EC810E6E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A74FDB43-5FCF-45F9-97C5-59EC810E6E2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,6 +108,7 @@ Global
 		{B6768CDE-7802-4056-82A4-275A3DDBF3F1} = {2C745E15-516A-48D7-B24C-E2362740E67E}
 		{45AD288A-D7B8-4E07-ACE1-82B6630342C4} = {2C745E15-516A-48D7-B24C-E2362740E67E}
 		{3F8AA7EB-7254-41B2-984D-03F223200AF9} = {2C745E15-516A-48D7-B24C-E2362740E67E}
+		{A74FDB43-5FCF-45F9-97C5-59EC810E6E2A} = {04A60DCA-833D-4981-BB91-2BE5513D6BA7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F60459DD-73FD-44EF-847A-F3EA174AD029}

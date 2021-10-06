@@ -33,3 +33,5 @@
 /CodeBehind/CodeBehind.GraphQueryLanguage.Demo.Console/obj
 /CodeBehind/CodeBehind.OData.Demo/bin/Debug/netcoreapp3.1
 /CodeBehind/CodeBehind.OData.Demo/obj
+/CodeBehind/CodeBehind.CosmoDB/obj
+/CodeBehind/CodeBehind.CosmoDB/bin/Debug/netcoreapp3.1
