@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30413.136
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBehind.MySQL", "CodeBehind.MySQL\CodeBehind.MySQL.csproj", "{105ACAA6-D543-46A6-BC51-A915880E2AF8}"
 EndProject
@@ -32,6 +32,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBehind.GraphQueryLanguage.Demo.Invocar", "CodeBehind.GraphQueryLanguage.Demo.Console\CodeBehind.GraphQueryLanguage.Demo.Invocar.csproj", "{3F8AA7EB-7254-41B2-984D-03F223200AF9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeBehind.CosmoDB", "CodeBehind.CosmoDB\CodeBehind.CosmoDB.csproj", "{A74FDB43-5FCF-45F9-97C5-59EC810E6E2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBehind.FirebirdNet6", "CodeBehind.FirebirdNet6\CodeBehind.FirebirdNet6.csproj", "{642DB955-CE07-45F2-BFBC-02E3C6F2C0F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +93,10 @@ Global
 		{A74FDB43-5FCF-45F9-97C5-59EC810E6E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A74FDB43-5FCF-45F9-97C5-59EC810E6E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A74FDB43-5FCF-45F9-97C5-59EC810E6E2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{642DB955-CE07-45F2-BFBC-02E3C6F2C0F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{642DB955-CE07-45F2-BFBC-02E3C6F2C0F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{642DB955-CE07-45F2-BFBC-02E3C6F2C0F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{642DB955-CE07-45F2-BFBC-02E3C6F2C0F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -109,6 +115,7 @@ Global
 		{45AD288A-D7B8-4E07-ACE1-82B6630342C4} = {2C745E15-516A-48D7-B24C-E2362740E67E}
 		{3F8AA7EB-7254-41B2-984D-03F223200AF9} = {2C745E15-516A-48D7-B24C-E2362740E67E}
 		{A74FDB43-5FCF-45F9-97C5-59EC810E6E2A} = {04A60DCA-833D-4981-BB91-2BE5513D6BA7}
+		{642DB955-CE07-45F2-BFBC-02E3C6F2C0F2} = {04A60DCA-833D-4981-BB91-2BE5513D6BA7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F60459DD-73FD-44EF-847A-F3EA174AD029}

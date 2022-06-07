@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model IEnumerable<CodeBehind.FirebirdNet6.Models.Cliente>
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    
+    
+<div class="row">
+    <div class="col-sm-12 text-right">
+        <a class="btn btn-primary" asp-area="" asp-controller="Home" asp-action="Create" >Novo</a></div>
+</div>
+<div class="row">
+    @if (Model != null && Model.Any())
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nome</th>
+                    <th>Opções</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <th scope="row">@item.IdCliente</th>
+                        <td>@item.Nome</td>
+                        <td>
+                            <a asp-area="" asp-controller="Home" asp-action="Delete" asp-route-id="@item.IdCliente" onclick="return confirm('Confirmar?');" class="btn btn-danger btn-sm text-white">Excluir</a>
+                            <a asp-area="" asp-controller="Home" asp-action="Edit" asp-route-id="@item.IdCliente" class="btn btn-success btn-sm text-white">Editar</a>
+                        </td>
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
+
+</div>
