@@ -37,3 +37,5 @@
 /CodeBehind/CodeBehind.CosmoDB/bin/Debug/netcoreapp3.1
 /CodeBehind/CodeBehind.FirebirdNet6/bin/Debug/net6.0
 /CodeBehind/CodeBehind.FirebirdNet6/obj
+/CodeBehind/CodeBehind.InterBaseFather/bin/Debug/net6.0
+/CodeBehind/CodeBehind.InterBaseFather/obj
