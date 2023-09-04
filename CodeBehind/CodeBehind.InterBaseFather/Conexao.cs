@@ -1,4 +1,5 @@
 ﻿using InterBaseSql.Data.InterBaseClient;
+using System.Configuration;
 
 namespace CodeBehind.InterBaseFather
 {
@@ -6,12 +7,16 @@ namespace CodeBehind.InterBaseFather
     {
         public static IBConnectionStringBuilder BuildConnectionStringBuilder()
         {
-            var builder = new IBConnectionStringBuilder();
-            builder.UserID = "SYSDBA";
-            builder.Password = "masterkey";
-            builder.DataSource = "localhost";
-            builder.Database = "C:\\temp\\BANCO.IB";
-            builder.Port = 3050;
+
+
+            var builder = new IBConnectionStringBuilder
+            {
+                UserID = ConfigurationManager.AppSettings["Usuario"],
+                Password = ConfigurationManager.AppSettings["Senha"],
+                DataSource = ConfigurationManager.AppSettings["DataSource"],
+                Database = ConfigurationManager.AppSettings["CaminhoBanco"],
+                Port = Convert.ToInt32(ConfigurationManager.AppSettings["Porta"])
+            };
             return builder;
         }
     }
