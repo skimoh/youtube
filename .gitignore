@@ -39,3 +39,12 @@
 /CodeBehind/CodeBehind.FirebirdNet6/obj
 /CodeBehind/CodeBehind.InterBaseFather/bin/Debug/net6.0
 /CodeBehind/CodeBehind.InterBaseFather/obj
+/CodeBehind/CodeBehind.Backup.BancoMySQL/bin/Debug/net6.0
+/CodeBehind/CodeBehind.Backup.BancoMySQL/obj
+/CodeBehind/CodeBehind.Backup.BancoPostGreSQL/bin/Debug/net6.0
+/CodeBehind/CodeBehind.Backup.BancoPostGreSQL/obj
+/CodeBehind/CodeBehind.Backup.BancoSQL/bin/Debug/net6.0
+/CodeBehind/CodeBehind.Backup.BancoSQL/obj
+/CodeBehind/CodeBehind.Backup.BancoSQLite/bin/Debug/net6.0
+/CodeBehind/CodeBehind.Backup.BancoSQLite/obj
+/CodeBehind/CodeBehind.InterBaseFather/bin
